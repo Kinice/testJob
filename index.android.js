@@ -29,7 +29,6 @@ class testJob extends Component {
       loaded: false,
     };
   }
-
   componentDidMount(){
     this.fetchData();
   }
@@ -63,7 +62,7 @@ class testJob extends Component {
     return (
       <View style={styles.container}>
         <Text>
-          Loading movies...
+          正在加载电影数据...
         </Text>
       </View>
     );
