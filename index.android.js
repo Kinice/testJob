@@ -12,7 +12,6 @@ import React, {
   Text,
   View
 } from 'react-native';
-
 var api_key = '7waqfqbprs7pajbz28mqf6vz';
 var api_url = 'http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json';
 var page_size = 25;
@@ -90,6 +89,10 @@ var styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
+    borderBottomWidth: 1,
+    borderColor: '#bbb',
+    marginBottom: 10,
+    padding: 10,
   },
   rightContainer: {
     flex: 1,
